@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/consalting.css">
+    <title>Маркетинговый консалтинг</title>
+</head>
+<body data-observe="who_come">
+    <button id="scrollToTopBtn"><img src="assets/upping-arrow.svg" alt="icon"></button>
+    <header class="header">
+        <div class="content-wrapper">
+            <div onclick="window.location.href='index.html'" class="logo">
+                <picture>
+                    <source srcset="assets/logo-white.svg" media="(max-width: 1000px)" />
+                    <img src="assets/logo.svg" alt="logo">
+                </picture>
+            </div>
+            <nav class="header_general__menu">
+                <ul class="header_general__menu-top">
+                    <li>
+                       <a href="index.html">ГЛАВНАЯ</a> 
+                    </li>
+                    <li>
+                       <a href="about.html">О компании <span class="triangle"></span></a> 
+                       <ul class="menu-service menu_lvl-2">
+                            <li>
+                                <a href="about.html">О компании</a>
+                            </li>
+                            <li>
+                                <a href="#">Вакансии</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Услуги <span class="triangle"></span></a>
+                        <ul class="menu-service menu_lvl-2">
+                            <li>
+                                <a href="marketing_director.html">Директор по маркетингу</a>
+                            </li>
+                            <li>
+                                <a href="marketing_package.html">Маркетинговая упаковка</a>
+                            </li>
+                            <li>
+                                <a href="complex_marketing.html">Комплексный маркетинг</a>
+                            </li>
+                            <li>
+                                <a href="marketing_key.html">Маркетинг под ключ</a>
+                            </li>
+                            <li>
+                                <a href="outsorce_marketing.html">Аустсорс маркетинга</a>
+                            </li>
+                            <li>
+                                <a href="consalting.html">Консалтинг</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="keyses.html">Кейсы</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                    <li>
+                       <a href="contacts.html">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_contacts">
+                <p>+7 (495) 185-16-78</p>
+                <p>marketing@basis.promo</p>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="burger_navigation">
+                <div class="burger_navigation__list">
+                    <p onclick="window.location.href='index.html'">ГЛАВНАЯ</p>
+                    <div class="burger_navigation__list-toggle">
+                        <p class="toggle">О компании <span class="triangle-click"></span></p>
+                        <div class="content content_about hidden">
+                            <p onclick="window.location.href='about.html'">О компании</p>
+                            <p>Вакансии</p>
+                        </div>
+                    </div>
+                    <div class="burger_navigation__list-toggle">
+                        <p class="toggle">Услуги <span class="triangle-click"></span></p>
+                        <div class="content content_service hidden">
+                            <p onclick="window.location.href='marketing_director.html'">Директор по маркетингу</p>
+                            <p onclick="window.location.href='marketing_package.html'">Маркетинговая упаковка</p>
+                            <p onclick="window.location.href='complex_marketing.html'">Комплексный маркетинг</p>
+                            <p onclick="window.location.href='marketing_key.html'">Маркетинг под ключ</p>
+                            <p onclick="window.location.href='outsorce_marketing.html'">Аустсорс маркетинга</p>
+                            <p onclick="window.location.href='consalting.html'">Консалтинг</p>
+                        </div>
+                    </div>
+                    <p onclick="window.location.href='keyses.html'">кейсы</p>
+                    <p>Блог</p>
+                    <p onclick="window.location.href='contacts.html'">контакты</p>
+                </div>
+                <div class="burger_navigation__contacts">
+                    <p>+7 (495) 185-16-78</p>
+                    <p>marketing@basis.promo</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="consalting">
+        <div class="consalting-blur"></div>
+        <div class="content-wrapper">
+            <div class="consalting__container">
+                <div class="consalting__container-logo">
+                    <div class="consalting-logo-blur"></div>
+                    <img src="assets/logo.svg" alt="logo" class="consalting-logo">
+                </div>
+                <div class="consalting__container-info_wrapper">
+                    <div class="consalting__container-info">
+                        <h1 class="consalting-info_title">Маркетинговый <br> консалтинг для бизнеса</h1>
+                        <p class="consalting-info_desc">Найдем точки роста и определим вектор <br> развития компании</p>
+                        <button class="main_btn">записаться на консультацию</button>
+                    </div>
+                </div>
+                <div class="consalting__container-image">
+                    <img src="assets/logo.svg" alt="logo" class="consalting-logo-mobile">
+                    <img src="assets/consalting-img.svg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what_consalting">
+        <div class="content-wrapper">
+            <div class="what_consalting-title">
+                <h2>Что такое маркетинговый <br> консалтинг?</h2>
+            </div>
+            <div class="what_consalting__container">
+                <div class="what_consalting__container__row">
+                    <div class="what_consalting__row-title">
+                        <p>Классическое <br> определение</p>
+                    </div>
+                    <div class="what_consalting__row-info what_consalting__row-info-1">
+                        <p>Маркетинговый консалтинг — это процесс оказания профессиональной помощи компаниям и организациям в области маркетинга.Консультанты по маркетингу работают с клиентами, чтобы помочь им разработать и реализовать маркетинговые стратегии, улучшить практики, найти точки роста и направление развития компании</p>
+                    </div>
+                </div>
+                <div class="what_consalting__container__row">
+                    <div class="what_consalting__row-title what_consalting__row-title-2">
+                        <p class="blue">Как мы это <br> понимаем</p>
+                    </div>
+                    <div class="what_consalting__row-info what_consalting__row-info-2">
+                        <p>В рамках маркетингового сопровождения бизнеса могут входить работы по разработке, управлению, исследованию и внедрению стратегии маркетинга, создание маркетинговых материалов, продвижение товаров и услуг предприятия, а также SEO-оптимизация</p>
+                        <img src="assets/what-marketing-img.svg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="who_come">
+        <div class="content-wrapper">
+            <div class="who_come__container">
+                <div class="who_come__container-title">
+                    <h2>Кто приходит за услугой <br> маркетингового консалтинга?</h2>
+                </div>
+                <div class="who_come__container-image">
+                    <div class="vector-blur"></div>
+                    <img src="assets/vectors.webp" alt="image">
+                </div>
+                <div class="who_come__container-info">
+                    <p>Осознанные компании, которые <br> понимают, что им нужна помощь или <br> совет для дальнейшего развития</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="useful">
+        <div class="content-wrapper">
+            <div class="useful-title">
+                <h2>Когда приходят?</h2>
+            </div>
+            <div class="useful__container">
+                <div class="useful__container_block">
+                    <img src="assets/useful-icon-1.svg" alt="icon">
+                    <p>Нужно, чтобы довели <br> до результата за ручку</p>
+                </div>
+                <div class="useful__container_block">
+                    <img src="assets/useful-icon-2.svg" alt="icon">
+                    <p>Зашли в тупик <br> и не знают что делать</p>
+                </div>
+                <div class="useful__container_block">
+                    <img src="assets/useful-icon-3.svg" alt="icon">
+                    <p>Знают желаемый результат, <br> но не знают как к нему прийти</p>
+                </div>
+                <div class="useful__container_block">
+                    <img src="assets/useful-icon-4.svg" alt="icon">
+                    <p>Нужно, чтобы <br> придумали за них</p>
+                </div>
+                <div class="useful__container_block">
+                    <img src="assets/useful-icon-5.svg" alt="icon">
+                    <p>Нужно подтверждение, что компания движется в нужном направлении</p>
+                </div>
+                <div class="useful__container_block">
+                    <img src="assets/useful-icon-6.svg" alt="icon">
+                    <p>Нужно, чтобы поняли продукт <br> и дали уникальное решение</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main_form need_dir-form">
+        <div class="main_from-right-blur need-dir_from-right-blur"></div>
+        <div class="content-wrapper">
+            <div class="main_form__container">
+                <div class="main_form__img-form-wrapper need-dir_form__img-form-wrapper">
+                    <div class="main_form__container-image need-dir_form__container-image">
+                        <img src="assets/need-dir-form.webp" alt="image">
+                    </div>
+                    <form class="main_form__container-form">
+                        <div class="main_form-title need-dir_form-title">
+                            <h2>Получите чек-лист маркетинга</h2>
+                        </div>
+                        <div class="need_dir_form-pretitle">
+                            <p>Оцените на сколько вы используете возможности маркетинга</p>
+                        </div>
+                        <p class="input_name">Ваше имя</p>
+                        <input type="text" class="main_form-input need-dir_form-input" placeholder="Например, Дмитрий">
+                        <p class="input_name">Ваш номер телефона</p>
+                        <input type="tel" class="main_form-input need-dir_form-input" placeholder="+7(999)999-99-99">
+                        <p class="input_name">Ваш e-mail</p>
+                        <input type="email" class="main_form-input need-dir_form-input" placeholder="example@mail.com">
+                        <button class="main_form-button need-dir_form-button">Отправить</button>
+                        <p class="politika-text">Нажимая на кнопку «Отправить», вы соглашаетесь <br> с Политикой конфиденциальности</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="useful_consalting">
+        <div class="useful_consalting-blur"></div>
+        <div class="content-wrapper">
+            <div class="useful_consalting-title">
+                <h2>Маркетинговый консалтинг будет полезен, если вы:</h2>
+            </div>
+            <div class="useful_consalting__container">
+                <div class="line line-1"></div>
+                <div class="useful_consalting__container_block">
+                    <div class="useful_consalting__block-image">
+                        <img src="https://s3-alpha-sig.figma.com/img/14a7/9ec5/0dd2cecdcff14f68d75e6f636a99bd4d?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GNfnm4P~LDczASgLgyX2zZc6WC9BYGBIvSoW27cqGMUX~NZUEpoBsZ6Ih-2PWpbmuHm~r0EWCPB0qJvo1FCMwKkYFTH8QnmW7yhimeAUf-7u4vBYKTMsv325Kj-yuza1lRHJnrSRGmyIpRyerpSJWrRNke~Qv9KqvZszDz6SDpKA9lOWpOvrgnLSy~-txmiNu8ZnDhcDWzVw2aBfdzRBkKbPlHVdvzKt78DEeggr6xrTJnYF~dcb0oDjPbfOC9BoOySlgzd2Ba56YE1RkPpjixp7T5HtRixqQO8tIYBm86XdJKRS1ue6t7jfPXfJkdVjaYA8zfBpXOaL5u4hynpk1A__" alt="icon">
+                    </div>
+                    <div class="useful_consalting__block-title useful_consalting__block-title-desktop"><p>Собственник</p></div>
+                    <p class="useful_consalting__block-desc">Со стороны проще увидеть пути решения, которые <br> собственник не замечает в каждодневной рутине</p>
+                </div>
+                <div class="line line-2"></div>
+                <div class="useful_consalting__container_block">
+                    <div class="useful_consalting__block-image">
+                        <img src="https://s3-alpha-sig.figma.com/img/821c/ca94/6fe57d4790e344f88b4ff012a1499802?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pds1La5maRbZ4rEAYBnpuMreeKHP3rMQvZQo92sN8r4edmphjOub7FupML9Ppl~y1sqIqsMBbTxolzUOyzr1KRaCiKjUjbEzQf-NyQHvVI3iZFlCOC0WVGa9-XhZNr~9LF1MHBS9V9hrNIQ~4d0GFxUw-WBGfgBThDHj1YCo3bMBCU-OsNcTedwcyY4y0w0sh9w9HbSMbsb2FtmaZaDSOZ~JOH24TLcnviRU6LKGh~9PBklcKZkoaWlkXc8mkzw2TZKYH2B4OD97Mz1opzRZI5CAVLOCoJHc2v1WlAcUBj0OiO2afXtYFJe75wS2u~IAQuXReakz9MOWsapEHHPxPw__" alt="icon">
+                    </div>
+                    <div class="useful_consalting__block-title useful_consalting__block-title-desktop"><p>Руководитель</p></div>
+                    <p class="useful_consalting__block-desc">Мы не ваши сотрудники, значит, не побоимся <br> сказать вам правду или отстоять свое мнение</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tasks">
+        <div class="content-wrapper">
+            <div class="tasks__container">
+                <div class="tasks__container-image">
+                    <img src="assets/consalting-tasks-img.svg" alt="image">
+                </div>
+                <div class="tasks__container-info">
+                    <div class="tasks__container-info_title">
+                        <p class="title">Задачи маркетингового <br> консалтинга</p>
+                        <p class="pretitle">Вот лишь некоторые из задач, с которыми мы можем помочь:</p>
+                    </div>
+                    <div class="tasks__container-info_block">
+                        <div class="tasks__container-info_block-img">
+                            <img src="assets/consalting-tasks-img-1.svg" alt="image">
+                        </div>
+                        <p class="title">Разработка стратегии маркетинга</p>
+                        <p class="desc">Поможем компании разработать стратегию маркетинга, которая позволит привлечь больше клиентов, увеличить продажи и улучшить свой имидж</p>
+                    </div>
+                    <div class="tasks__container-info_block">
+                        <div class="tasks__container-info_block-img">
+                            <img src="assets/consalting-tasks-img-2.svg" alt="image">
+                        </div>
+                        <p class="title">Исследование рынка</p>
+                        <p class="desc">Проведем исследование рынка и на основе этого этого анализа предложим новые стратегии продвижения, изменения в продукте или услуге, которые могут привести к увеличению продаж</p>
+                    </div>
+                    <div class="tasks__container-info_block">
+                        <div class="tasks__container-info_block-img">
+                            <img src="assets/consalting-tasks-img-3.svg" alt="image">
+                        </div>
+                        <p class="title">Оптимизация бюджетов</p>
+                        <p class="desc">Поможем оптимизировать расходы на маркетинг, выбрав наиболее эффективные каналы продвижения и стратегии</p>
+                    </div>
+                    <div class="tasks__container-info_block">
+                        <div class="tasks__container-info_block-img">
+                            <img src="assets/consalting-tasks-img-4.svg" alt="image">
+                        </div>
+                        <p class="title">Обучение персонала</p>
+                        <p class="desc">Мы можем предоставить инструменты для обучения персонала, чтобы улучшить их навыки и повысить эффективность работы</p>
+                        <button class="main_btn">Узнать подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <section class="targets">
+        <div class="content-wrapper">
+            <div class="targets__container">
+                <div class="targets__container-image">
+                    <img src="assets/compl-mark-targets-img.svg" alt="image">
+                </div>
+                <div class="targets__container-info">
+                    <div class="targets__container-title">
+                        <h2>Цели, которые мы поможем <br> достичь</h2>
+                    </div>
+                    <div class="targets__container-info-points">
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Определение стратегических целей и задач компании</p>
+                        </div>
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Повышение качества управления организацией</p>
+                        </div>
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Построение эффективных бизнес процессов</p>
+                        </div>
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Увеличение объемов реализации продуктов и услуг</p>
+                        </div>
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Правильное позиционирование компании на рынке</p>
+                        </div>
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Увеличение доли рынка</p>
+                        </div>
+                        <div class="points-row">
+                            <div class="point"></div>
+                            <p>Сокращение издержек и потерь на всех уровнях</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main_form need_dir-form">
+        <div class="main_from-right-blur need-dir_from-right-blur"></div>
+        <div class="content-wrapper">
+            <div class="main_form__container">
+                <div class="main_form__img-form-wrapper need-dir_form__img-form-wrapper">
+                    <div class="main_form__container-image need-dir_form__container-image">
+                        <img src="assets/need-dir-form.webp" alt="image">
+                    </div>
+                    <form class="main_form__container-form">
+                        <div class="main_form-title need-dir_form-title">
+                            <h2>Получите чек-лист маркетинга</h2>
+                        </div>
+                        <div class="need_dir_form-pretitle">
+                            <p>Оцените на сколько вы используете возможности маркетинга</p>
+                        </div>
+                        <p class="input_name">Ваше имя</p>
+                        <input type="text" class="main_form-input need-dir_form-input" placeholder="Например, Дмитрий">
+                        <p class="input_name">Ваш номер телефона</p>
+                        <input type="tel" class="main_form-input need-dir_form-input" placeholder="+7(999)999-99-99">
+                        <p class="input_name">Ваш e-mail</p>
+                        <input type="email" class="main_form-input need-dir_form-input" placeholder="example@mail.com">
+                        <button class="main_form-button need-dir_form-button">Отправить</button>
+                        <p class="politika-text">Нажимая на кнопку «Отправить», вы соглашаетесь <br> с Политикой конфиденциальности</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="content-wrapper">
+            <div class="price__container">
+                <div class="price__container__big">
+                    <div class="price__container__big-title">
+                        <p>Стоимость</p>
+                    </div>
+                    <div class="price__container__big_wrapper">
+                        <p class="title">Маркетинговый консалтинг</p>
+                        <p class="pretitle">Найдем нужный вектор <br> развития компании</p>
+                        <img src="assets/consalting-price-200.svg" alt="image">
+                        <div class="line"></div>
+                        <div class="text">
+                            <p>Разработка комплексной стратегии</p>
+                            <p>Создание бизнес-процессов</p>
+                            <p>Помощь и поддержка на всех этапах развития бизнеса</p>
+                        </div>
+                        <div class="button">
+                            <button class="main_btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price__container__small">
+                    <div class="price__container__small-title">
+                        <p>Другие услуги</p>
+                    </div>
+                    <div class="price__container__small_wrapper">
+                        <div class="price__container__small_block">
+                            <p class="title">Аутсорс маркетинга</p>
+                            <p class="desc">Эффективный отдел маркетинга <br> под ключ</p>
+                        </div>
+                        <div class="price__container__small_block">
+                            <p class="title">Директор по маркетингу</p>
+                            <p class="desc">Наведем порядок в отделе <br> маркетинга</p>
+                        </div>
+                        <div class="price__container__small_block">
+                            <p class="title">Маркетинговая упаковка</p>
+                            <p class="desc">Выведем проект на рынок или активируем <br> новый бизнес-юнит короткие сроки</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="main_form">
+        <div class="main_from-right-blur"></div>
+        <div class="content-wrapper">
+            <div class="main_form__container">
+                <div class="main_form__container-text main_form__container-text-desktop">
+                    <p>Оставьте данные <br> и мы вам перезвоним!</p>
+                    <div class="main_from-left-blur"></div>
+                </div>
+                <div class="main_form__container-image-mobile">
+                    <img src="assets/form-img-2.svg" alt="image">
+                    <div class="main_from-left-blur"></div>
+                </div>
+                <div class="main_form__img-form-wrapper">
+                    <div class="main_form__container-form">
+                        <div class="main_form-title">
+                            <p>Остались вопросы?</p>
+                        </div>
+                        <div class="main_form__container-text main_form__container-text-mobile">
+                            <p>Оставьте данные <br> и мы вам перезвоним!</p>
+                        </div>
+                        <p class="input_name">Ваше имя</p>
+                        <input type="text" class="main_form-input" placeholder="Например, Дмитрий">
+                        <p class="input_name">Ваш номер телефона</p>
+                        <input type="tel" class="main_form-input" placeholder="+7(999)999-99-99">
+                        <p class="input_name">Ваш e-mail</p>
+                        <input type="email" class="main_form-input" placeholder="example@mail.com">
+                        <button class="main_form-button">Отправить</button>
+                        <p class="politika-text">Нажимая на кнопку «Отправить», вы соглашаетесь <br> с Политикой конфиденциальности</p>
+                    </div>
+                    <div class="main_form__container-image">
+                        <img src="assets/form-img.svg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer footer-1">
+        <div class="content-wrapper">
+            <div class="footer_content footer_content-left">
+                <div onclick="window.location.href='index.html'" class="logo">
+                    <img src="assets/logo-white.svg" alt="logo">
+                </div>
+                <div class="footer_content__contacts">
+                    <p>г. Москва, м. Аэропорт, <br> ул. Красноармейская, д. 11, к. 4.</p>
+                    <p>+7 (495) 255 22 52</p>
+                    <p class="footer_inn">ИНН: 7743351971</p>
+                </div>
+                <div class="footer_content__msgs">
+                    <img src="assets/x-icon.webp" alt="icon">
+                    <img src="assets/tg-icon.webp" alt="icon">
+                    <img src="assets/vk-icon.webp" alt="icon">
+                    <img src="assets/vcru-icon.webp" alt="icon">
+                </div>
+                <div class="footer_content__menu-col footer_content__menu-col-docs footer_content__menu-col-docs-ipad">
+                    <p>Политика конфиденциальности</p>
+                    <p>Политика обработки персональных данных</p>
+                    <p>Карта сайта</p>
+                </div>
+            </div>
+            <div class="footer_content footer_content-right">
+                <div class="footer_content__menu">
+                    <div class="footer_content__menu-col">
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='index.html'">Главная</p>
+                            <p onclick="window.location.href='about.html'">О компании</p>
+                            <p>Услуги</p>
+                            <p>Блог</p>
+                            <p>Вакансии</p>
+                            <p onclick="window.location.href='keyses.html'">Кейсы</p>
+                            <p onclick="window.location.href='contacts.html'">Контакты</p>
+                        </div>
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='outsorce_marketing.html'">Аутсорс маркетинга</p>
+                            <p onclick="window.location.href='complex_marketing.html'">Комплексный маркетинг</p>
+                            <p onclick="window.location.href='marketing_director.html'">Директор по маркетингу</p>
+                            <p onclick="window.location.href='marketing_key.html'">Маркетинг под ключ</p>
+                            <p onclick="window.location.href='consalting.html'">Маркетинговый  консалтинг</p>
+                            <p onclick="window.location.href='marketing_package.html'">Маркетинговая упаковка</p>
+                        </div>
+                    </div>
+                    <div class="footer_content__menu-col footer_content__menu-col-docs footer_content__menu-col-docs-desktop">
+                        <p>Политика конфиденциальности</p>
+                        <p>Политика обработки персональных данных</p>
+                        <p>Карта сайта</p>
+                    </div>
+                </div>
+                <div class="footer_content__form">
+                    <p class="footer_content__form-title">Получите чек-лист маркетинга</p>
+                    <form class="footer_content__form-wrapper">
+                        <input type="text" placeholder="Ваше имя" class="form_input">
+                        <input type="tel" placeholder="Ваш номер телефона" class="form_input">
+                        <input type="email" placeholder="Ваш e-mail" class="form_input">
+                        <button class="form_button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer footer-2">
+        <div class="content-wrapper">
+            <div class="footer_content footer_content-left">
+                <div onclick="window.location.href='index.html'" class="logo">
+                    <img src="assets/logo-white.svg" alt="logo">
+                </div>
+                <div class="footer_content__contacts">
+                    <p>г. Москва, м. Аэропорт, <br> ул. Красноармейская, д. 11, к. 4.</p>
+                    <p>+7 (495) 255 22 52</p>
+                    <p class="footer_inn">ИНН: 7743351971</p>
+                </div>
+                <div class="footer_content__form">
+                    <p class="footer_content__form-title">Получите чек-лист маркетинга</p>
+                    <form class="footer_content__form-wrapper">
+                        <input type="text" placeholder="Ваше имя" class="form_input">
+                        <input type="tel" placeholder="Ваш номер телефона" class="form_input">
+                        <input type="email" placeholder="Ваш e-mail" class="form_input">
+                        <button class="form_button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_content footer_content-right">
+                <div class="footer_content__menu">
+                    <div class="footer_content__menu-col">
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='index.html'">Главная</p>
+                            <p onclick="window.location.href='about.html'">О компании</p>
+                            <p>Услуги</p>
+                            <p>Блог</p>
+                            <p>Вакансии</p>
+                            <p onclick="window.location.href='keyses.html'">Кейсы</p>
+                            <p onclick="window.location.href='contacts.html'">Контакты</p>
+                        </div>
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='outsorce_marketing.html'">Аутсорс маркетинга</p>
+                            <p onclick="window.location.href='complex_marketing.html'">Комплексный маркетинг</p>
+                            <p onclick="window.location.href='marketing_director.html'">Директор по маркетингу</p>
+                            <p onclick="window.location.href='marketing_key.html'">Маркетинг под ключ</p>
+                            <p onclick="window.location.href='consalting.html'">Маркетинговый  консалтинг</p>
+                            <p onclick="window.location.href='marketing_package.html'">Маркетинговая упаковка</p>
+                        </div>
+                    </div>
+                    <div class="footer_content__msgs">
+                        <img src="assets/x-icon.webp" alt="icon">
+                        <img src="assets/tg-icon.webp" alt="icon">
+                        <img src="assets/vk-icon.webp" alt="icon">
+                        <img src="assets/vcru-icon.webp" alt="icon">
+                    </div>
+                    <div class="footer_content__menu-col footer_content__menu-col-docs footer_content__menu-col-docs-ipad">
+                        <p>Политика конфиденциальности</p>
+                        <p>Политика обработки персональных данных</p>
+                        <p>Карта сайта</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/utils.js"></script>
+    <script type="module" src="scripts/visibleEl.js"></script>
+    <script type="module" src="scripts/consalting.js"></script>
+</body>
+</html>

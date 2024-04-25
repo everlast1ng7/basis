@@ -1,0 +1,147 @@
+/* KEYSES PAGE */
+/* KEYSES PAGE */
+/* KEYSES PAGE */
+/* KEYSES PAGE */
+
+:root {
+    --text-color: #000;
+    --bg-button: #227E91;
+    --bg-button-hover: #0F6172;
+    --color-button: #fff;
+    --bg-big-numbs: #86D0DA;
+    --main-bg: #fff;
+    --bg-footer: #1F1F1F;
+    --color-footer-txt: #fff;
+    --horizontal-padding: 5px;
+    --width-content-1920: 1160px;
+    --width-content-1000: 95%;
+    --width-content-800: 95%;
+    --width-content-400: 95%;
+    --opacity-text: #858585;
+}
+
+.our_keys {
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.our_keys-title {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.our_keys-title p {
+    font-size: 45px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.our_keys__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.our_keys__container_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.our_keys__block-name {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.our_keys__block-name img {
+    width: 74px;
+    height: 89px;
+}
+
+.our_keys__block-name p {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.our_keys__block-name img.our-keys-img-5 {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1000px) {
+    .our_keys {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .our_keys-title {
+        margin-bottom: 90px;
+    }
+
+    .our_keys__block-btn .main_btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .our_keys {
+        margin-bottom: 117px;
+        margin-top: 80px;
+    }
+    
+    .our_keys-title {
+        margin-bottom: 47px;
+    }
+
+    .our_keys__container {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .our_keys {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    
+    .our_keys-title {
+        margin-bottom: 5px;
+    }
+
+    .our_keys-title p {
+        font-size: 30px;
+    }
+
+    .our_keys__block-name img {
+        width: 59px;
+        height: 72px;
+    }
+
+    .our_keys__block-name p {
+        font-size: 22px;
+    }
+
+    .our_keys__block-name {
+        gap: 20px;
+    }
+
+    .our_keys__container_block {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .our_keys__block-btn {
+        width: 100%;
+    }
+}

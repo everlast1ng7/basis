@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <title>О компании</title>
+</head>
+<body data-observe="more">
+    <button id="scrollToTopBtn"><img src="assets/upping-arrow.svg" alt="icon"></button>
+    <header class="header">
+        <div class="content-wrapper">
+            <div onclick="window.location.href='index.html'" class="logo">
+                <picture>
+                    <source srcset="assets/logo-white.svg" media="(max-width: 1000px)" />
+                    <img src="assets/logo.svg" alt="logo">
+                </picture>
+            </div>
+            <nav class="header_general__menu">
+                <ul class="header_general__menu-top">
+                    <li>
+                       <a href="index.html">ГЛАВНАЯ</a> 
+                    </li>
+                    <li>
+                       <a href="about.html">О компании <span class="triangle"></span></a> 
+                       <ul class="menu-service menu_lvl-2">
+                            <li>
+                                <a href="about.html">О компании</a>
+                            </li>
+                            <li>
+                                <a href="#">Вакансии</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Услуги <span class="triangle"></span></a>
+                        <ul class="menu-service menu_lvl-2">
+                            <li>
+                                <a href="marketing_director.html">Директор по маркетингу</a>
+                            </li>
+                            <li>
+                                <a href="marketing_package.html">Маркетинговая упаковка</a>
+                            </li>
+                            <li>
+                                <a href="complex_marketing.html">Комплексный маркетинг</a>
+                            </li>
+                            <li>
+                                <a href="marketing_key.html">Маркетинг под ключ</a>
+                            </li>
+                            <li>
+                                <a href="outsorce_marketing.html">Аустсорс маркетинга</a>
+                            </li>
+                            <li>
+                                <a href="consalting.html">Консалтинг</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="keyses.html">Кейсы</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                    <li>
+                       <a href="contacts.html">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_contacts">
+                <p>+7 (495) 185-16-78</p>
+                <p>marketing@basis.promo</p>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="burger_navigation">
+                <div class="burger_navigation__list">
+                    <p onclick="window.location.href='index.html'">ГЛАВНАЯ</p>
+                    <div class="burger_navigation__list-toggle">
+                        <p class="toggle">О компании <span class="triangle-click"></span></p>
+                        <div class="content content_about hidden">
+                            <p onclick="window.location.href='about.html'">О компании</p>
+                            <p>Вакансии</p>
+                        </div>
+                    </div>
+                    <div class="burger_navigation__list-toggle">
+                        <p class="toggle">Услуги <span class="triangle-click"></span></p>
+                        <div class="content content_service hidden">
+                            <p onclick="window.location.href='marketing_director.html'">Директор по маркетингу</p>
+                            <p onclick="window.location.href='marketing_package.html'">Маркетинговая упаковка</p>
+                            <p onclick="window.location.href='complex_marketing.html'">Комплексный маркетинг</p>
+                            <p onclick="window.location.href='marketing_key.html'">Маркетинг под ключ</p>
+                            <p onclick="window.location.href='outsorce_marketing.html'">Аустсорс маркетинга</p>
+                            <p onclick="window.location.href='consalting.html'">Консалтинг</p>
+                        </div>
+                    </div>
+                    <p onclick="window.location.href='keyses.html'">кейсы</p>
+                    <p>Блог</p>
+                    <p onclick="window.location.href='contacts.html'">контакты</p>
+                </div>
+                <div class="burger_navigation__contacts">
+                    <p>+7 (495) 185-16-78</p>
+                    <p>marketing@basis.promo</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="about-blur-left"></div>
+        <div class="about-blur-right"></div>
+        <div class="content-wrapper">
+            <div class="about_title">
+                <h1>О компании</h1>
+            </div>
+            <div class="about_container">
+                <div class="about_container__nums">
+                    <div class="about_container__nums_block">
+                        <p class="about_container__nums-num">10</p>
+                        <p class="about_container__nums-txt">лет на рынке</p>
+                    </div>
+                    <div class="about_container__nums_block">
+                        <p class="about_container__nums-num">387</p>
+                        <p class="about_container__nums-txt">проектов <br> реализовано</p>
+                    </div>
+                </div>
+                <div class="about_container__info">
+                    <div class="about_container__info-block">
+                        <p>Команда профессионалов с высокой вовлеченностью конкретно в ваш проект</p>
+                    </div>
+                    <div class="about_container__info-block">
+                        <p>Работа на результат, а не на оклад</p>
+                    </div>
+                    <div class="about_container__info-block">
+                        <p>Свежий взгляд на проект и его перспективы</p>
+                    </div>
+                    <div class="about_container__info-block">
+                        <p>Применяем эффективные инструменты и технологий в разных отраслях рынка</p>
+                    </div>
+                    <div class="about_container__info-block">
+                        <p>Не говорим «нет», а ищем решение</p>
+                    </div>
+                    <div class="about_container__info-block">
+                        <p>Выбираем оптимальный состав рабочей группы, которые смогут быть максимально полезны</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="history">
+        <div class="content-wrapper">
+            <div class="history-title">
+                <h2>История BASIS/</h2>
+            </div>
+            <div class="history_info">
+                <div class="history_info-image">
+                    <img src="assets/history-basis-img.webp" alt="image">
+                </div>
+                <div class="history_info-text">
+                    <p class="history_info-title">Вкратце</p>
+                    <p class="history_info-desc">Наша команда находится на рынке маркетингового сопровождения бизнеса более 10 лет. За это время мы выработали собственную экспертизу в отраслевых решениях, основанную на опыте работы с крупными корпорациями, средним и малым бизнесом.</p>
+                    <p class="history_info-desc">Из небольшого нишевого агентства, которое действует 
+                        по запросу клиента, мы переросли в маркетинг в формате аутсорса. Нам кажется, что партнерская работа приводит 
+                        к более эффективным результатам, чем «преклонение» перед запросом клиента без аналитики, исследования рынка и формирования объективной стратегии.</p>
+                </div>
+            </div>
+            <div class="history_banner">
+                <p>Предлагаем рассказать обо всем по порядку. Мы оформим наш путь тезисно — без лишнего перегруза информацией, чтобы вы не заскучали, но в то же время достаточно подробно, чтобы поняли, кто мы такие!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="more">
+        <div class="more-blur-up"></div>
+        <div class="more-blur-down"></div>
+        <div class="content-wrapper">
+            <img src="assets/about-more-line.webp" alt="line" class="about-more-line">
+            <div class="more-title">
+                <h2>Подробнее</h2>
+            </div>
+            <div class="more_container">
+                <div class="more_container__info">
+                    <div class="more_container__info-image">
+                        <img src="assets/about-more-img-1.webp" alt="image">
+                    </div>
+                    <div class="more_container__info-text">
+                        <p class="year">2010-2014</p>
+                        <p class="pretitle">Запуск нишевого рекламного агентства</p>
+                        <p class="desc">На этом отрезке метания и поиски превратились в четкий вектор развития — нужно стремиться к аутсорсу. Можно ли сказать, что мы завоевывали рынок РФ? Судите сами:</p>
+                        <div class="points">
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Ежемесячный оборот более <span class="blue">100 млн ₽</span></p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p><span class="blue">97</span> сотрудников в штате</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Организация <span class="blue">150+</span> мероприятий ежегодно</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Контракт с Организационным Комитетом <br> <span class="blue">XXII Олимпийских зимних игр в Сочи</span></p>
+                            </div>
+                        </div>
+                        <p class="title-clients">Ключевые клиенты на этом этапе:</p>
+                        <p class="list-clients">Авилон, АвтоДом, АСЦ, Мега-Авто WAG, Fiat-Chrysler Group, MINI Russia</p>
+                    </div>
+                </div>
+                <div class="more_container__info">
+                    <div class="more_container__info-image">
+                        <img src="assets/about-more-img-2.webp" alt="image">
+                    </div>
+                    <div class="more_container__info-text">
+                        <p class="year">2015-2019</p>
+                        <p class="pretitle">Эра перехода на аутсорс</p>
+                        <p class="desc">Мы следили за трансформациями рынка. В течение первых 3-х лет этапа 
+                            мы изучили девять новых бизнес-ниш и привлекли более 130 клиентов. Параллельно мы осваивали постоянно обновляемые digital-технологии 
+                            и разработали цифровые продукты, которые все еще используем в работе.</p>
+                        <p class="pretitle">В конце 2019 года мы:</p>
+                        <div class="points">
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Получение статуса интегратора у <span class="blue">12</span> вендоров</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Команда выросла до <span class="blue">137</span> человек</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Переехали в новый офис и начали заниматься развитием консалтинга бизнес-процессов</p>
+                            </div>
+                        </div>
+                        <p class="title-clients">Ключевые клиенты на этом этапе:</p>
+                        <p class="list-clients">ПЭК, ФАВОРИТ МОТОРС, ГАЗПРОМБАНК, Аквакомплекс «Лужники», Mail.ru, One Fit, сеть барбершопов «Аляска»</p>
+                    </div>
+                </div>
+                <div class="more_container__info">
+                    <div class="more_container__info-image">
+                        <img src="assets/about-more-img-3.webp" alt="image">
+                    </div>
+                    <div class="more_container__info-text">
+                        <p class="year">2020-2021</p>
+                        <p class="pretitle">Карантин и обучение гибкости</p>
+                        <p class="desc">Объяснять до каких последствий некоторые компании довел карантин, кажется, не стоит? Раз мы все еще здесь, значит, мы справились, но было непросто. Переход к онлайн-формату работы, сокращение штата, отказ от неэффективных бизнес-юнитов. По итогу мы вышли из карантина с 22 крепкими партнерами.</p>
+                        <p class="desc">В 2021 году мы поняли, что на рынке появился запрос на аутсорс маркетинг. Тут-то и произошел запуск BASIS/ 2.0. Чего мы успели достичь к концу 2022 года?</p>
+                        <div class="points">
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Рост выручки <span class="blue">х3</span> по сравнению с 2021 годом</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Расширение партнерских программ и продуктов</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Реструктуризация <span class="blue">60%</span> клиентов и привлечение новых, стремящихся вернуться к прежним объемам</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Развитие собственных цифровых продуктов</p>
+                            </div>
+                        </div>
+                        <p class="title-clients">Ключевые клиенты на этом этапе:</p>
+                        <p class="list-clients">Мы сами, которые совершили успешное проникновение на рынок аутсорс-маркетинга</p>
+                    </div>
+                </div>
+                <div class="more_container__info">
+                    <div class="more_container__info-image">
+                        <img src="assets/about-more-img-4.webp" alt="image">
+                    </div>
+                    <div class="more_container__info-text">
+                        <p class="year">2022-2023</p>
+                        <p class="pretitle">Лучшая практика</p>
+                        <p class="desc">Мы отвоевали свою долю рынка и нашли нишу, которая соотносится с нашими компетентностями и перспективами.</p>
+                        <p class="desc">Все клиенты 2022 года перешли в 2023 с расширенными контрактами. В работу команды мы ввели методологию OKR для управления внутренними и внешними</p>
+                        <p class="pretitle">Напоследок выделим основные векторы развития:</p>
+                        <div class="points">
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Применение собственной экспертизы в отраслевых решениях
+                                </p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Оптимизация оргструктуры и определение целевых клиентских портретов</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Сплоченность команды и партнерство с клиентами как ключ к совместному росту</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="manage_squade">
+        <div class="content-wrapper">
+            <div class="manage_squade-title">
+                <h2>Руководящий состав</h2>
+            </div>
+            <div class="manage_squade__container">
+                <div class="manage_squade__container_block">
+                    <div class="manage_squade__name">
+                        <p>Юлия Матвеева</p>
+                    </div>
+                    <div class="manage_squade__photo">
+                        <img src="assets/about-manage-yuliya.webp" alt="image">
+                    </div>
+                    <div class="manage_squade__title">
+                        <p>Генеральный директор BASIS/</p>
+                    </div>
+                    <div class="manage_squade__keys">
+                        <p class="keys-title">Лучшие кейсы:</p>
+                        <div class="points">
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>х2 объема продаж за 9 месяцев <br> к прошлому году при задаче клиента +20%</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>с 0 до 7000 действующих клиентов <br> 
+                                    за 5 месяцев для аналогичного бизнеса <br>
+                                    в новом регионе</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Опыт ведения 150+ проектов за 6 лет</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="manage_squade__container_block">
+                    <div class="manage_squade__name">
+                        <p>Илья Игнатов</p>
+                    </div>
+                    <div class="manage_squade__photo">
+                        <img src="assets/about-manage-ilya.webp" alt="image">
+                    </div>
+                    <div class="manage_squade__title">
+                        <p>Head в департаменте по инновациям</p>
+                    </div>
+                    <div class="manage_squade__keys">
+                        <p class="keys-title">Лучшие кейсы:</p>
+                        <div class="points">
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Попал топ-5 шорт-листа премии <br>
+                                    «Silver Mercury» в номинации <br>
+                                    «Лучший digital-проект» 2021 года</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Работал над проектом «Турецкий поток» <br> в качестве digital-маркетолога</p>
+                            </div>
+                            <div class="points-row">
+                                <span class="point"></span>
+                                <p>Продвигал проект «ObamaCare» <br> в 12 штатах США</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what_get">
+        <div class="content-wrapper">
+            <div class="what_get-title">
+                <h2>Что получают наши клиенты?</h2>
+            </div>
+            <div class="what_get-image">
+                <img src="assets/about-big-circle-img.svg" alt="image" class="about-big-circle-img">
+                <img src="assets/about-big-circle-img-mobile.webp" alt="image" class="about-big-circle-img-mobile">
+            </div>
+            <div class="what_get-list">
+                <p>Формулировка концепции позиционирования бренда</p>
+                <p>Активация и контроль входящего трафика</p>
+                <p>Разработка визуальной концепции бренда</p>
+                <p>Внедрение CRM-систем во внутренние процессы работы клиентов</p>
+                <p>Формирование презентации продукта и разработка конкретного оффера</p>
+                <p>Разработка эффективных рекламных кампаний</p>
+                <p>Разработка гипотезы для увеличения продаж</p>
+                <p>Отстройка от конкурентов и увеличение доходов компании посредством создания бренда</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="content-wrapper">
+            <div class="services-title">
+                <h2>Используемые инструменты маркетинга</h2>
+            </div>
+            <div class="services_container">
+                <div class="services_container__block services_container__block-shadow">
+                    <img src="assets/services-icon-1.svg" alt="icon">
+                    <p>Веб-аналитика и колл-трекинг</p>
+                </div>
+                <div class="services_container__block">
+                    <img src="assets/services-icon-2.svg" alt="icon">
+                    <p>Таргет, контекст, поисковое продвижение</p>
+                </div>
+                <div class="services_container__block">
+                    <img src="assets/services-icon-3.svg" alt="icon">
+                    <p>Построение CPA-сетей</p>
+                </div>
+                <div class="services_container__block">
+                    <img src="assets/services-icon-4.svg" alt="icon">
+                    <p>Создание чат-ботов на основе нейросетей</p>
+                </div>
+                <div class="services_container__block">
+                    <img src="assets/services-icon-5.svg" alt="icon">
+                    <p>Создание автоворонок продаж</p>
+                </div>
+                <div class="services_container__block services_container__block-shadow">
+                    <img src="assets/services-icon-6.svg" alt="icon">
+                    <p>Мобайл и партизанский маркетинг</p>
+                </div>
+                <div class="services_container__block services_container__block-shadow">
+                    <img src="assets/services-icon-7.svg" alt="icon">
+                    <p>Геймификация и special offer's</p>
+                </div>
+                <div class="services_container__block">
+                    <img src="assets/services-icon-8.svg" alt="icon">
+                    <p>BI дашборды для формирования отчетности</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our_keys">
+        <div class="content-wrapper">
+            <div class="our_keys-title">
+                <h2>Наши кейсы</h2>
+            </div>
+            <div class="our_keys__container">
+                <div class="our_keys__container_block">
+                    <div class="our_keys__block-name">
+                        <img src="assets/about-our-keys-icon-1.webp" alt="image">
+                        <p>MaxMarket</p>
+                    </div>
+                    <div class="our_keys__block-btn">
+                        <button class="main_btn">смотреть кейс</button>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="our_keys__container_block">
+                    <div class="our_keys__block-name">
+                        <img src="assets/about-our-keys-icon-2.webp" alt="image">
+                        <p>New Life</p>
+                    </div>
+                    <div class="our_keys__block-btn">
+                        <button class="main_btn">смотреть кейс</button>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="our_keys__container_block">
+                    <div class="our_keys__block-name">
+                        <img src="assets/about-our-keys-icon-3.webp" alt="image">
+                        <p>Автограф</p>
+                    </div>
+                    <div class="our_keys__block-btn">
+                        <button class="main_btn">смотреть кейс</button>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="our_keys__container_block">
+                    <div class="our_keys__block-name">
+                        <img src="assets/about-our-keys-icon-4.webp" alt="image">
+                        <p>Дом.Контроль</p>
+                    </div>
+                    <div class="our_keys__block-btn">
+                        <button class="main_btn">смотреть кейс</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="scenario">
+        <div class="scenario-blur"></div>
+        <div class="content-wrapper">
+            <div class="scenario-title">
+                <h2>Сценарии сотрудничества <br> с BASIS/</h2>
+            </div>
+            <div class="scenario__container">
+                <div class="line line-1"></div>
+                <div class="scenario__container_block">
+                    <div class="scenario__block-image">
+                        <img src="https://s3-alpha-sig.figma.com/img/65a3/0622/947365858bc8c7ae813ff3aa7f5abb5e?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hnaClEqjIQtcyfxa836ho73p31RW2yhBngOfttTmIwxT5kyjRFkkkXGiUhFR92nSs1ozmHNdcw7qgJs5vzrz-Sc1t-nTqCiFlySMbDlE18nPmXeKriffOZbeHuR8gYx5k92E0bQs3Ko4mFI-g7aqnoFB6huTWS-e2cEHsad6tRYD6C-P54di1-kgyWrH1zgjpbvrHKcevmea1zwheKwMsU3o3q1YEhuXXX1kU5zbmyhpjZXSRq8fZM0S1pV7vMmi-nWLgWSf~OP6PWF2Bv9nLlxuFz-xv6Tq2hQ~8xnDafVS7Dmb7ewo5Y4aKmR3pGBaFFMQVzzvE9haAUHd212ung__" alt="icon">
+                    </div>
+                    <div class="scenario__block-title scenario__block-title-desktop"><p>Собственник</p></div>
+                    <div class="points">
+                        <div class="scenario__block-title scenario__block-title-mobile"><p>Собственник</p></div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Делегирует упаковку продукта и избавляется <br> от операционной работы</p>
+                        </div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Ищет проверенные решения и находит в BASIS/</p>
+                        </div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Получает больше клиентов и наблюдает <br> за увеличением прибыли, доходности, оборота</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="line line-2"></div>
+                <div class="scenario__container_block">
+                    <div class="scenario__block-image">
+                        <img src="https://s3-alpha-sig.figma.com/img/821c/ca94/6fe57d4790e344f88b4ff012a1499802?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FFk8TZWsyV3hg8ladaDl~oT2ixjgX8-~KhuItJUVNNnlaNvjudA34uP2cguUPHhk9wZ21JZsdRt6OOqbZPKQlyXhdGSCOQVc0QN7ioNo5IRSk5lXe5tB2PGNwhXY0zRjyrBLZDp-mt6sFfIxJEYeQNt8875rlYQJul4os8rBPjIN86QpHTC6psGIx95tXHljQO0gPaqDzVNd-~SNkgPq35jjbrw6tLi95Ke5evM03E358LV3LPbqdDEpsiwc8U4VofbCagWr9ucGiph1Pi4xIovnj3SungH2d7xYuspVBrmizMxGh6Gz4ZwbucBdgzmr74NJ2BoZtSywQyMD-A6Ngw__" alt="icon">
+                    </div>
+                    <div class="scenario__block-title scenario__block-title-desktop"><p>Руководитель</p></div>
+                    <div class="points">
+                        <div class="scenario__block-title scenario__block-title-mobile"><p>Руководитель</p></div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Имел негативный опыт работы с агентствами <br> и нашел BASIS/</p>
+                        </div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Понял, что продажи и маркетинг можно совмещать</p>
+                        </div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Получил стратегию позиционирования бренда <br> по оптимальной цене</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="line line-3"></div>
+                <div class="scenario__container_block">
+                    <div class="scenario__block-image">
+                        <img src="https://s3-alpha-sig.figma.com/img/65ad/1abd/f56a83354ef6f512e36dc9d20d6c3961?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CddnNpNB7KYPd12l8CC9Q~o97srl4lpF-2M1qAOTSvBdye8bzhYqknpv1FPSJ9K2erIPz5KUKx5ZCwJJVm~3J5mr5w1kTuAn3TvgI3wzCRJ16CUMzEgxgsZcY-4C6cmAwidcOtwPF7dh02b31USwzBZGIYt8nU8ab9Qi0BU-x5ZXjpb05vn0NjNuoo8WNbcbeHXaj5QAPbDk-K4F5qy3FKspVDqLKL3Oq5fSRa3FKUZHbJwT9m4P5U6QuGuFoEKCC0d5q6~kq9DUw84nDYdKLbTKsQUbwTfb-Ecdkewfm9-lkG4Enzg7iqu2lUT1QydiOoKmHbJPyS3Zb43ZFMASUw__" alt="icon">
+                    </div>
+                    <div class="scenario__block-title scenario__block-title-desktop"><p>Маркетолог</p></div>
+                    <div class="points">
+                        <div class="scenario__block-title scenario__block-title-mobile"><p>Маркетолог</p></div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Повысил компетенции, применяя инновации <br> и современные технологии</p>
+                        </div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Оптимизировал расход денежных средств на РК</p>
+                        </div>
+                        <div class="points-row">
+                            <span class="point"></span>
+                            <p>Реализовал стратегию, которую никак не мог воплотить в жизнь</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="line line-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="start_end">
+        <div class="content-wrapper">
+            <div class="start_end__container">
+                <div class="start_end__container_block">
+                    <div class="start_end__block-title">
+                        <p>Мы <br class="start-end-block-title-br"> начнем с</p>
+                    </div>
+                    <div class="start_end__block-info start_end__block-info-shadow">
+                        <div class="start_end__block-info-blur"></div>
+                        <img src="assets/about-start-end-icon-1.svg" alt="image" class="about-start-end-icon">
+                        <p class="title">Упаковки продукта</p>
+                        <div class="points-col">
+                            <div class="points">
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Сделаем бренд продукта</p>
+                                </div>
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Сформируем позиционирование</p>
+                                </div>
+                            </div>
+                            <div class="points">
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Найдем новые ниши сбыта</p>
+                                </div>
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Внедрим метод ROI <br> анализа</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="start_end__container_block">
+                    <div class="start_end__block-title">
+                        <p>и закончим</p>
+                    </div>
+                    <div class="start_end__block-info">
+                        <div class="start_end__block-info-blur start_end__block-info-blur-blue"></div>
+                        <img src="assets/about-start-end-icon-2.svg" alt="image" class="about-start-end-icon">
+                        <p class="title">Ростом доходов</p>
+                        <div class="points-col">
+                            <div class="points">
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Удержим потребителей</p>
+                                </div>
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Увеличим прибыль <br> компании</p>
+                                </div>
+                            </div>
+                            <div class="points">
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Оптимизируем <br> расходование ДС</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="start_end__container_block start_end__container_block-3">
+                    <div class="start_end__block-info">
+                        <div class="start_end__block-info-blur"></div>
+                        <img src="assets/about-start-end-icon-3.svg" alt="image" class="about-start-end-icon">
+                        <p class="title">Повышением <br class="start_end__block-info-br-povishenie"> узнаваемости бренда</p>
+                        <div class="points-col">
+                            <div class="points">
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Сформируем правильный контекст</p>
+                                </div>
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Завоюем доверие на рынке</p>
+                                </div>
+                            </div>
+                            <div class="points">
+                                <div class="points-row">
+                                    <span class="point"></span>
+                                    <p>Проведем анализ <br> конкурентов</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main_form">
+        <div class="main_from-right-blur"></div>
+        <div class="content-wrapper">
+            <div class="main_form__container">
+                <div class="main_form__container-text main_form__container-text-desktop">
+                    <p>Оставьте данные <br> и мы вам перезвоним!</p>
+                    <div class="main_from-left-blur"></div>
+                </div>
+                <div class="main_form__container-image-mobile">
+                    <img src="assets/form-img-2.webp" alt="image">
+                    <div class="main_from-left-blur"></div>
+                </div>
+                <div class="main_form__img-form-wrapper">
+                    <div class="main_form__container-form">
+                        <div class="main_form-title">
+                            <p>Остались вопросы?</p>
+                        </div>
+                        <div class="main_form__container-text main_form__container-text-mobile">
+                            <p>Оставьте данные <br> и мы вам перезвоним!</p>
+                        </div>
+                        <p class="input_name">Ваше имя</p>
+                        <input type="text" class="main_form-input" placeholder="Например, Дмитрий">
+                        <p class="input_name">Ваш номер телефона</p>
+                        <input type="tel" class="main_form-input" placeholder="+7(999)999-99-99">
+                        <p class="input_name">Ваш e-mail</p>
+                        <input type="email" class="main_form-input" placeholder="example@mail.com">
+                        <button class="main_form-button">Отправить</button>
+                        <p class="politika-text">Нажимая на кнопку «Отправить», вы соглашаетесь <br> с Политикой конфиденциальности</p>
+                    </div>
+                    <div class="main_form__container-image">
+                        <img src="assets/form-img.webp" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer footer-1">
+        <div class="content-wrapper">
+            <div class="footer_content footer_content-left">
+                <div onclick="window.location.href='index.html'" class="logo">
+                    <img src="assets/logo-white.svg" alt="logo">
+                </div>
+                <div class="footer_content__contacts">
+                    <p>г. Москва, м. Аэропорт, <br> ул. Красноармейская, д. 11, к. 4.</p>
+                    <p>+7 (495) 255 22 52</p>
+                    <p class="footer_inn">ИНН: 7743351971</p>
+                </div>
+                <div class="footer_content__msgs">
+                    <img src="assets/x-icon.webp" alt="icon">
+                    <img src="assets/tg-icon.webp" alt="icon">
+                    <img src="assets/vk-icon.webp" alt="icon">
+                    <img src="assets/vcru-icon.webp" alt="icon">
+                </div>
+                <div class="footer_content__menu-col footer_content__menu-col-docs footer_content__menu-col-docs-ipad">
+                    <p>Политика конфиденциальности</p>
+                    <p>Политика обработки персональных данных</p>
+                    <p>Карта сайта</p>
+                </div>
+            </div>
+            <div class="footer_content footer_content-right">
+                <div class="footer_content__menu">
+                    <div class="footer_content__menu-col">
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='index.html'">Главная</p>
+                            <p onclick="window.location.href='about.html'">О компании</p>
+                            <p>Услуги</p>
+                            <p>Блог</p>
+                            <p>Вакансии</p>
+                            <p>Кейсы</p>
+                            <p onclick="window.location.href='contacts.html'">Контакты</p>
+                        </div>
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='outsorce_marketing.html'">Аутсорс маркетинга</p>
+                            <p onclick="window.location.href='complex_marketing.html'">Комплексный маркетинг</p>
+                            <p onclick="window.location.href='marketing_director.html'">Директор по маркетингу</p>
+                            <p onclick="window.location.href='marketing_key.html'">Маркетинг под ключ</p>
+                            <p onclick="window.location.href='consalting.html'">Маркетинговый  консалтинг</p>
+                            <p onclick="window.location.href='marketing_package.html'">Маркетинговая упаковка</p>
+                        </div>
+                    </div>
+                    <div class="footer_content__menu-col footer_content__menu-col-docs footer_content__menu-col-docs-desktop">
+                        <p>Политика конфиденциальности</p>
+                        <p>Политика обработки персональных данных</p>
+                        <p>Карта сайта</p>
+                    </div>
+                </div>
+                <div class="footer_content__form">
+                    <p class="footer_content__form-title">Получите чек-лист маркетинга</p>
+                    <form class="footer_content__form-wrapper">
+                        <input type="text" placeholder="Ваше имя" class="form_input">
+                        <input type="tel" placeholder="Ваш номер телефона" class="form_input">
+                        <input type="email" placeholder="Ваш e-mail" class="form_input">
+                        <button class="form_button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer footer-2">
+        <div class="content-wrapper">
+            <div class="footer_content footer_content-left">
+                <div onclick="window.location.href='index.html'" class="logo">
+                    <img src="assets/logo-white.svg" alt="logo">
+                </div>
+                <div class="footer_content__contacts">
+                    <p>г. Москва, м. Аэропорт, <br> ул. Красноармейская, д. 11, к. 4.</p>
+                    <p>+7 (495) 255 22 52</p>
+                    <p class="footer_inn">ИНН: 7743351971</p>
+                </div>
+                <div class="footer_content__form">
+                    <p class="footer_content__form-title">Получите чек-лист маркетинга</p>
+                    <form class="footer_content__form-wrapper">
+                        <input type="text" placeholder="Ваше имя" class="form_input">
+                        <input type="tel" placeholder="Ваш номер телефона" class="form_input">
+                        <input type="email" placeholder="Ваш e-mail" class="form_input">
+                        <button class="form_button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_content footer_content-right">
+                <div class="footer_content__menu">
+                    <div class="footer_content__menu-col">
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='index.html'">Главная</p>
+                            <p onclick="window.location.href='about.html'">О компании</p>
+                            <p>Услуги</p>
+                            <p>Блог</p>
+                            <p>Вакансии</p>
+                            <p onclick="window.location.href='keyses.html'">Кейсы</p>
+                            <p onclick="window.location.href='contacts.html'">Контакты</p>
+                        </div>
+                        <div class="footer_content__menu-col-list">
+                            <p onclick="window.location.href='outsorce_marketing.html'">Аутсорс маркетинга</p>
+                            <p onclick="window.location.href='complex_marketing.html'">Комплексный маркетинг</p>
+                            <p onclick="window.location.href='marketing_director.html'">Директор по маркетингу</p>
+                            <p onclick="window.location.href='marketing_key.html'">Маркетинг под ключ</p>
+                            <p onclick="window.location.href='consalting.html'">Маркетинговый  консалтинг</p>
+                            <p onclick="window.location.href='marketing_package.html'">Маркетинговая упаковка</p>
+                        </div>
+                    </div>
+                    <div class="footer_content__msgs">
+                        <img src="assets/x-icon.webp" alt="icon">
+                        <img src="assets/tg-icon.webp" alt="icon">
+                        <img src="assets/vk-icon.webp" alt="icon">
+                        <img src="assets/vcru-icon.webp" alt="icon">
+                    </div>
+                    <div class="footer_content__menu-col footer_content__menu-col-docs footer_content__menu-col-docs-ipad">
+                        <p>Политика конфиденциальности</p>
+                        <p>Политика обработки персональных данных</p>
+                        <p>Карта сайта</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="scripts/utils.js"></script>
+    <script type="module" src="scripts/visibleEl.js"></script>
+    <script type="module" src="scripts/about.js"></script>
+</body>
+</html>
